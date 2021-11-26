@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Stylesheets with Relative Paths</title>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/c8fc0bf3c9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header style="display: flex;">
+      <h1>Othmen Amri</h1>
+      <nav>
+        <ul style="list-style: none; display:flex; justify-content: space-between;">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Work</a></li>
+          <li><a href="">Resume</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <section>
+        <h3>Connect with Me</h3>
+        <li>
+          <a href="https://www.linkedin.com/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://stackoverflow.com/">
+            <i class="fab fa-stack-overflow"></i>
+          </a>
+        </li>
+      </section>
+    </div>
+
+    <div>
+      <section>
+        <h2>About Me</h2>
+
+        <img
+          src="profileimg.jpg"
+          alt="Othmen Amri"
+          style="height: 5%; width: 5%; border-radius: 75%;"
+        />
+
+        <p>
+          Working is the new type of learing.
+        </p>
+      </section>
+    </div>
+    <div>
+      <h2>work</h2>
+      <p>all my work can be found in my hub account. <a href="https://github.com/othmen2013">click here</a>.</p>
+    </div>
+    <div>
+      <h2>resume</h2>
+      <p>my life achievment can be found in linked in.<a href="https://www.linkedin.com/in/othmen-c-amri-66a03b108/">click here</a>.</p>
+    </div>
+    <div>
+      <h2 class="contact">contact me</h2>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <label for="email">email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="john@example.com"
+        />
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <footer class="footer">© copyright 2021 Oth-Men</footer>
+  </body>
+</html>
